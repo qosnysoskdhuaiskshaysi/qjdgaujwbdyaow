@@ -69,7 +69,7 @@ else
 ctc = "别想了老弟，白名单没有你的名字，你就算卡密对了也用不了"       
 end
 if ctc == (""..onyes) then
-loadstring(game:HttpGet(('https://raw.githubusercontent.com/atoyayaya/script/refs/heads/main/%E7%BE%A4%E7%BB%84%E6%A3%80%E6%B5%8B.lua')))()
+loadstring(game:HttpGet(('https://raw.githubusercontent.com/qosnysoskdhuaiskshaysi/script/refs/heads/main/%E5%8A%A0%E5%AF%86%E6%A3%80%E6%B5%8B%E7%BE%A4%E7%BB%84.lua')))()
 end
 end})
 
