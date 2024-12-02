@@ -47,8 +47,8 @@ if id == 4106234624 then
     else
         ctc = (""..offno)  
     end
-elseif id == 4825610036 then
-    if kam == "293629393" then
+elseif id == 7258840075 then
+    if kam == "sbhhh" then
         ctc = (""..onyes)
     else
         ctc = (""..offno)  
