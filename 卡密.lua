@@ -31,6 +31,20 @@ local onyes = "卡密正确，正在为你执行脚本…"
 
 local offno = "卡密错误！请输入正确卡密！"
 
+local kali = {
+[3823054988] = "29371820",
+[4106234624] = "ato_1",
+[5469836478] = "29372937"
+}
+
+local youk = Tab:AddSection("你的卡密:"..kali[id])
+
+Tab:AddButton({"复制卡密", function()
+setclipboard(""..kali[id])
+end})
+
+local Section = Tab:AddSection("执行脚本-检测卡密")
+
 Tab:AddTextBox({
     Title = "请输入卡密:",
     PlaceholderText = "请输入",
@@ -42,25 +56,19 @@ end
 
 Tab:AddButton({"检测卡密", function()
 if id == 4106234624 then
-    if kam == "ato_1" then
-        ctc = (""..onyes)
-    else
-        ctc = (""..offno)  
-    end
-elseif id == 7258840075 then
-    if kam == "sbhhh" then
+    if kam == kali[id] then
         ctc = (""..onyes)
     else
         ctc = (""..offno)  
     end
 elseif id == 3823054988 then
-    if kam == "29371820" then
+    if kam == kali[id] then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
     end    
 elseif id == 5469836478 then
-    if kam == "29372937" then
+    if kam == kali[id] then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
