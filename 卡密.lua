@@ -35,7 +35,8 @@ local kali = {
 [3823054988] = "29371820",
 [4106234624] = "ato_1",
 [5469836478] = "29372937",
-[7258840075] = "我是傻逼"
+[7258840075] = "我是傻逼",
+[3160155026] = "大面包"
 }
 
 local youk = Tab:AddSection("你的卡密:"..kali[id])
@@ -79,7 +80,13 @@ elseif id == 7258840075 then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
-    end  
+    end
+elseif id == 3160155026 then
+    if kam == kali[id] then
+        ctc =  (""..onyes)
+    else
+        ctc = (""..offno)  
+    end        
 else
 ctc = "别想了老弟，白名单没有你的名字，你就算卡密对了也用不了"       
 end
