@@ -58,31 +58,31 @@ end
 
 Tab:AddButton({"检测卡密", function()
 if id == 4106234624 then
-    if kam == kali[id] then
+    if kam == "ato_1" then
         ctc = (""..onyes)
     else
         ctc = (""..offno)  
     end
 elseif id == 3823054988 then
-    if kam == kali[id] then
+    if kam == "29371820" then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
     end    
 elseif id == 5469836478 then
-    if kam == kali[id] then
+    if kam == "29372937" then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
     end        
 elseif id == 7258840075 then
-    if kam == kali[id] then
+    if kam == "我是傻逼" then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
     end
 elseif id == 3160155026 then
-    if kam == kali[id] then
+    if kam == "大面包" then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
