@@ -31,22 +31,6 @@ local onyes = "卡密正确，正在为你执行脚本…"
 
 local offno = "卡密错误！请输入正确卡密！"
 
-local kali = {
-[3823054988] = "29371820",
-[4106234624] = "ato_1",
-[5469836478] = "29372937",
-[7258840075] = "我是傻逼",
-[3160155026] = "大面包"
-}
-
-local youk = Tab:AddSection("你的卡密:"..kali[id])
-
-Tab:AddButton({"复制卡密", function()
-setclipboard(""..kali[id])
-end})
-
-local Section = Tab:AddSection("执行脚本-检测卡密")
-
 Tab:AddTextBox({
     Title = "请输入卡密:",
     PlaceholderText = "请输入",
