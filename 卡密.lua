@@ -37,7 +37,8 @@ local kali = {
 [5469836478] = "29372937",
 [7258840075] = "我是傻逼",
 [3160155026] = "大面包",
-[7601946782] = "sbsq"
+[7601946782] = "sbsq",
+[7226793165] = "39472912"
 }
 
 local youk = Tab:AddSection("你的卡密:"..kali[id])
@@ -89,6 +90,12 @@ elseif id == 3160155026 then
         ctc = (""..offno)  
     end       
 elseif id == 7601946782 then
+    if kam == kali[id] then
+        ctc =  (""..onyes)
+    else
+        ctc = (""..offno)  
+    end    
+elseif id == 7226793165 then
     if kam == kali[id] then
         ctc =  (""..onyes)
     else
