@@ -40,7 +40,8 @@ local kali = {
 [7601946782] = "sbsq",
 [7226793165] = "39472912",
 [5672575740] = "ieudhsj",
-[3239276345] = "nwnssnjw"
+[3239276345] = "nwnssnjw",
+[7601946782] = "wihdgs"
 }
 
 local youk = Tab:AddSection("你的卡密:"..kali[id])
@@ -114,7 +115,13 @@ elseif id == 3239276345 then
         ctc =  (""..onyes)
     else
         ctc = (""..offno)  
-    end             
+    end
+elseif id == 7601946782 then
+    if kam == kali[id] then
+        ctc =  (""..onyes)
+    else
+        ctc = (""..offno)  
+    end                 
 else
 ctc = "别想了老弟，白名单没有你的名字，你就算卡密对了也用不了"       
 end
